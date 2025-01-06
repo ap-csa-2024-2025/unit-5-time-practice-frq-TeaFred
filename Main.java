@@ -8,6 +8,10 @@ public class Main
     // prompt the user for an initial time, and use the tick method
     // on that Time object.  Check that the resulting time is correct
     // after the tick
+    Time t1 = new Time();
+    Time t2 = new Time(2,3,4);
+    System.out.println(t1);
+    System.out.println(t2);
     
   
     // Uncomment these lines of code when you are ready to test your tick and add methods
