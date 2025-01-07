@@ -10,8 +10,11 @@ public class Main
     // after the tick
     Time t1 = new Time();
     Time t2 = new Time(23, 59, 59);
+    Time t3 = new Time(23, 59, 59);
     System.out.println(t2);
     t2.tick();
+    System.out.println(t2);
+    t2.add(t3);
     System.out.println(t2);
     
   

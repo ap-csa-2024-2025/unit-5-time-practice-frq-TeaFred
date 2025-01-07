@@ -75,6 +75,8 @@ public Time()
   */
   public void add(Time offset)
   {
-
+    this.seconds += offset.seconds % 60;
+    this.minutes += offset.minutes %60;
+    this.hours += offset.hours %60;
   }
 }
