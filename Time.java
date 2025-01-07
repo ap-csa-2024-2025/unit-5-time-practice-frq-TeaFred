@@ -50,7 +50,23 @@ public Time()
   // TODO: Part F - write the tick method
   public void tick()
   {
+    if (seconds == 59)
+    {
+      if (minutes == 59)
+      {
+        if (hours == 23)
+        {
+          seconds = 0;
+          minutes = 0;
+          hours = 0;
+        }
 
+      } 
+    }
+    else
+    {
+      seconds +=1;
+    }
   }
 
   // TODO: Part G - write the add method

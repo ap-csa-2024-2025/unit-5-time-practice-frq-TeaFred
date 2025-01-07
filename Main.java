@@ -9,8 +9,9 @@ public class Main
     // on that Time object.  Check that the resulting time is correct
     // after the tick
     Time t1 = new Time();
-    Time t2 = new Time(2,3,4);
-    System.out.println(t1);
+    Time t2 = new Time(23, 59, 59);
+    System.out.println(t2);
+    t2.tick();
     System.out.println(t2);
     
   
